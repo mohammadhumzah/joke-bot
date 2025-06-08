@@ -24,7 +24,7 @@ def main():
     while True:
         joke = get_dark_joke()
         notify_mac("Joke Bot", joke)
-        time.sleep(20*60)
+        time.sleep(30)
 
 
 def notify_mac(title, message):     # title is joke bot, message is the joke from def main
