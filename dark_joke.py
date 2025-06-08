@@ -9,7 +9,7 @@ def get_dark_joke():
     Fetches a two-part dark joke from JokeAPI.
     Returns the joke as a combined string (setup + delivery).
     """
-    url = "https://v2.jokeapi.dev/joke/Dark?type=twopart"
+    url = "https://v2.jokeapi.dev/joke/Dark,Pun?type=twopart"
     response = requests.get(url)
     data = response.json()
 
@@ -24,7 +24,7 @@ def main():
     while True:
         joke = get_dark_joke()
         notify_mac("Joke Bot", joke)
-        time.sleep(30*60)
+        time.sleep(20*60)
 
 
 def notify_mac(title, message):     # title is joke bot, message is the joke from def main
