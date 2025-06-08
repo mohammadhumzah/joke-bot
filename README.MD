@@ -30,23 +30,23 @@ screen -S joke_session
 python3 dark_joke.py
 # To detach from screen session: press Ctrl + A, then D
 
-2. **After Quitting Terminal**
+1. **After Quitting Terminal**
 
 The program keeps running in background, to completely stop the script from running:
-i. Open Terminal
-ii. Reattach the screen session
+i. Open Terminal.
+ii. Reattach the screen session.
 iii. ```bash
   screen -r joke_session
   Ctrl + C
-iv. After stopping script type, exit, to completely stop the program
+iv. After stopping script type, exit, to completely stop the program.
 
-Your session is now fully closed
+Your session is now fully closed.
 
 ## License
 
 MIT License
 
-3. The jokes can be really unhinged, i take no responsibility for them as they are fetched from a random api.
+2. The jokes can be really unhinged, i take no responsibility for them as they are fetched from a random api.
 
 
      
