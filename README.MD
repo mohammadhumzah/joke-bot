@@ -1,6 +1,6 @@
 # Joke Notifier 🤡
 
-A Python script that sends a random dark two-part joke after fixed interval as a macOS notification.
+A Python script that sends a random dark two-part joke with setup and delivery, after fixed interval of time as a macOS notification.
 
 ## Features
 - Fetches dark, two-part jokes from JokeAPI.
