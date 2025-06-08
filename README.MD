@@ -18,11 +18,13 @@ A Python script that sends a random dark two-part joke after fixed interval as a
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/joke-notifier.git
-cd joke-notifier
+git clone https://github.com/yourusername/joke-bot.git
+cd joke-bot
 pip install -r requirements.txt
 brew install terminal-notifier
 python3 dark_joke.py
+
+To keep the program running in after quitting the terminal, in terminal create a new screen session as;
 
 screen -S joke_session
 python3 dark_joke.py
@@ -36,13 +38,15 @@ ii. Reattach the screen session
 iii. ```bash
   screen -r joke_session
   Ctrl + C
-iv. After stopping script type: exit
+iv. After stopping script type, exit, to completely stop the program
 
 Your session is now fully closed
 
 ## License
 
 MIT License
+
+3. The jokes can be really unhinged, i take no responsibility for them as they are fetched from a random api.
 
 
      
