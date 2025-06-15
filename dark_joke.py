@@ -38,6 +38,8 @@ def notify_mac(title, message):     # title is joke bot, message is the joke fro
         "-appIcon", "/Users/mohammadhumzah/Downloads/icon.png"
     ])
 
+    subprocess.run(["say", message])
+
 
 if __name__ == "__main__":
     main()
